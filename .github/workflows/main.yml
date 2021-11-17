@@ -21,7 +21,7 @@ jobs:
           branch: main
           tag_prefix: "v"
           major_pattern: "BREAKING CHANGE:"
-          minor_pattern: "feat:"
+          minor_pattern: "feature:"
           format: "v${major}.${minor}.${patch}-prerelease${increment}"
       - name: "Build Changelog"
         id: build_changelog
